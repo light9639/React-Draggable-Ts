@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.box {
+  cursor: pointer;
+  padding: 2.5rem 0rem;
+  border-radius: 5px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 25px auto;
+  color: #fff;
+  box-shadow: 0 0 15px hsla(0deg, 0%, 0%, 0.5);
+  text-shadow: 0 2px 3px hsla(0deg, 0%, 0%, 0.25);
+  background-image: linear-gradient(rgb(0, 198, 251, 0.9) 0%, rgb(0, 91, 234, 0.9) 100%);
+  // background-image: linear-gradient(#ff8a00, #e52e71);
+}
