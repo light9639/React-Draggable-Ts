@@ -1,4 +1,4 @@
-# 📌 React-Draggable-Ts 연습 페이지입니다.
+# 🪜 React-Draggable-Ts 연습 페이지입니다.
 :octocat: https://light9639.github.io/React-Draggable-Ts/
 
 ![light9639 github io_React-Draggable-Ts_](https://user-images.githubusercontent.com/95972251/216325962-b0ebdf05-5b56-41f5-95ec-1c057da36f88.png)
@@ -162,7 +162,7 @@ export default function App(): JSX.Element {
 }
 ```
 
-## :test_tube: 박스들을 마우스로 이동시키기.
+## ⚗️ 박스들을 마우스로 이동시키기.
 - 박스들을 마우스나 손으로 드래그 하면 파일이 이동하면서 박스의 위치를 표시한다.
 
 ![light9639 github io_React-Draggable-Ts_ (1)](https://user-images.githubusercontent.com/95972251/216326069-73ea2122-9a62-450e-b0c8-20e5bb910148.png)
