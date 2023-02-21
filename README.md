@@ -63,6 +63,9 @@ yarn add sass
 
 ## ✒️ App.tsx, App.scss 수정 및 작성
 ### :zap: App.tsx
+- `Draggable`, `DraggableData` 함수를 이용하면 `React`에서 드래그를 쉽게 구현할 수 있다.
+- `Opacity` 값을 지정하여 드래그를 시작하여 `true`가 될 시 투명도가 낮아지며, 드래그를 멈춰서 `false`가 될 때에는 투명도가 1이 된다.
+- `trackPos` 함수를 이용하여 드래그가 가능하며 `handleStart`는 클릭하여 이동시 이동을 시켜주며 `handleEnd`는 더 이상 클릭하지 않은 상태일 경우 이동시키지 않는 함수를 의미한다.
 ```js
 import React, { useState, useRef } from "react";
 import reactLogo from './assets/react.svg'
